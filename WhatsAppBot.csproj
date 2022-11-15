@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <UserSecretsId>110b4eb4-9cdd-4503-9bd3-b5be0cce7435</UserSecretsId>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Twilio" Version="5.81.2" />
+    <PackageReference Include="Twilio" Version="5.81.2"/>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0"/>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0"/>
   </ItemGroup>
-
 </Project>
